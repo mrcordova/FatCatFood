@@ -38,18 +38,21 @@ nav a {
     /* flex-direction: row wrap; */
     border: 1px solid pink;
 }
+nav li {
+  margin-right: 1rem;
+}
 nav li:first-child {
     margin-right: auto;
-    margin-left: 92px;
+    margin-left: 5.75rem;
 /* border: 2px solid black; */
 }
 nav li:last-child {
-    margin-right: 92px;
+    margin-right: 5.75rem;
 }
 
 .logo {
-    /* max-width: 100%;
-    height: auto; */
+    max-width: 100%;
+    height: auto; 
     /* margin-right: 25rem; */
     /* align-items: ; */
     border: 1px solid  brown;
@@ -57,6 +60,12 @@ nav li:last-child {
 
 @media (max-width: 760px) {
     nav li:last-child {
-        margin-right: 0px;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 200px) {
+    .logo {
+        max-width: min-content;
     }
 }
