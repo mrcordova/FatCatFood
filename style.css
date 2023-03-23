@@ -17,41 +17,56 @@ nav {
 nav ul {
     font-size: 1rem;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+   flex-flow: row wrap; 
+    justify-content: flex-end; 
     align-items: center;
     width: 100%;
     background-color: #F5F5DC;
     border: 1px solid blueviolet;
 }
 
-nav a {
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    display: flex;
+nav li  {
+    /* text-decoration: none;
+    font-weight: 600; */
+    /* padding: 0.5rem 1rem; */
+    /* display: flex; */
     font-family: 'Chewy', cursive;
     border: 1px solid pink;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    
 }
-nav li {
+
+nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+/* nav li {
   margin-right: 1rem;
-}
-nav li:first-child {
-    margin-right: auto;
+} */
+nav ul li:first-child {
+    /* margin-right: auto; */
+    flex: 1;
     margin-left: 5.75rem;
 
 }
-nav li:last-child {
+nav ul li:last-child {
     margin-right: 5.75rem;
 }
 
 .logo {
-   width: 5rem;
+    width: 5rem;
     border: 1px solid  brown;
 }
 
 @media (max-width: 760px) {
-    nav li:last-child {
-        margin-right: 1rem;
+    nav ul li:last-child {
+        margin-right: 0;
     }
+    nav ul li:first-child {
+        flex: 1;
+        margin-left: 0;
+    }
+    
 }
