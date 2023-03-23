@@ -5,23 +5,23 @@ body {
     border: 1px solid red;
 }
 
-
 nav {
-        background-color: #F5F5DC;
+        
         width: 100vw;
-        height: 15vh;
-        display: flex;
-        border: 1px solid yellowgreen;
+        height: 10vh;
+        /* display: flex; */
+        /* border: 1px solid yellowgreen; */
 }
 
 
 nav ul {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
+    background-color: #F5F5DC;
     border: 1px solid blueviolet;
 }
 
@@ -46,20 +46,12 @@ nav li:last-child {
 }
 
 .logo {
-    max-width: 100%;
-    height: auto; 
-
+   width: 5rem;
     border: 1px solid  brown;
 }
 
 @media (max-width: 760px) {
     nav li:last-child {
         margin-right: 1rem;
-    }
-}
-
-@media (max-width: 200px) {
-    .logo {
-        max-width: min-content;
     }
 }
