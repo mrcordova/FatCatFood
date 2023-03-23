@@ -42,7 +42,6 @@ nav li a {
 }
 
 nav ul li:first-child {
-
     /* display: flex; */
     /* justify-content: flex-start; */
     flex: 1;
@@ -56,6 +55,20 @@ nav ul li:last-child {
 .logo {
     width: 5rem;
     border: 1px solid  brown;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+.hero {
+    background-image: url('./images/hero_img.png');
+    width: 100%;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+   background-color: var(--off-black);
 }
 
 @media (max-width: 760px) {
