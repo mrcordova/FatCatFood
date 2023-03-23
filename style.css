@@ -19,16 +19,13 @@ nav {
 
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     font-size: 1.5rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    height: auto;
+    /* height: auto;  */
     border: 1px solid blueviolet;
 }
 
@@ -37,14 +34,22 @@ nav a {
     font-weight: 600;
     padding: 0.5rem 1rem;
     display: flex;
+    /* flex-direction: row wrap; */
     border: 1px solid pink;
 }
-nav li:last-child{
-  margin-right: 50px;
+nav li:first-child {
+    margin-right: auto;
+    margin-left: 92px;
+/* border: 2px solid black; */
+}
+nav li:last-child {
+    margin-right: 92px;
 }
 
 .logo {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
+    /* margin-right: 25rem; */
+    /* align-items: ; */
     border: 1px solid  brown;
 }
