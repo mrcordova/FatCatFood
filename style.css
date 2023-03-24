@@ -44,6 +44,7 @@ nav li a {
     font-weight: 600;
     color: var(--off-black);
     
+    
 }
 
 nav ul li:first-child {
@@ -66,6 +67,14 @@ nav ul li:last-child {
     justify-content: center;
     /* align-items: center; */
     border: 1px solid gold;
+    
+}
+
+.desc-section {
+    border: 1px solid springgreen;
+    width: 100vw;
+    
+     /* flex: 1 1 auto; */
 }
 
 .desc-title {
@@ -75,11 +84,13 @@ nav ul li:last-child {
     color: var(--off-black);
 }
 .desc-par {
-     margin-right: 5.75rem;
+    margin-right: 5.75rem;
     margin-left: 5.75rem;
     line-height: 195%;
     font-size: 1.1875rem;
 }
+
+
 
 .icon-text {
     font-size: 1.5625rem;
@@ -91,7 +102,8 @@ nav ul li:last-child {
 }
 
 .hero-section {
-    width: 100vw;
+    /* width: 100vw; */
+    flex: auto;
     border: 1px solid sandybrown;
     height: 35vh;
 
@@ -103,23 +115,26 @@ nav ul li:last-child {
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-   background-color: var(--off-black);
+    background-color: var(--off-black);
 }
 
 .material-icons.md-196 { 
-    font-size: 12.24rem; 
+    font-size: 10.24rem; 
     color: var(--off-black);
 }
 
 .supply-chain-container {
     margin-top: 2.8125rem;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    width: 100%;
+    /* width: 100%;  */
+    /* flex: 1 1 auto; */
     
 }
 .supply-chain-container div{
     padding: 0.5rem 1rem;
+    
     
 }
 
@@ -128,6 +143,7 @@ nav ul li:last-child {
         flex: 1;
         margin-left: 0;
     } */
+
     nav ul li:last-child {
         margin-right: 0;
     }
@@ -139,6 +155,9 @@ nav ul li:last-child {
         margin-left: 0;
     }
 
+    nav li {
+        margin-left: 0;
+    }
     /* .desc-title {
         font-size: 1.5rem;
     }
