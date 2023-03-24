@@ -9,9 +9,6 @@ body {
     box-sizing: border-box; 
     border: 1px solid red;
     align-content: flex-start;
-
-
- 
 }
 
 header {
@@ -63,6 +60,22 @@ nav ul li:last-child {
     text-align: center;
     margin-right: 5.75rem;
     margin-left: 5.75rem;
+    border: 1px solid gold;
+}
+
+.desc-title {
+    font-size: 2.8125rem;
+    font-family: 'Chewy', cursive;
+    margin-top: 1.5625rem;
+    color: var(--off-black);
+}
+.desc-par {
+    line-height: 195%;
+    font-size: 2.1875rem;
+}
+
+.icon-text {
+    font-size: 1.5625rem;
 }
 
 .logo {
@@ -84,6 +97,17 @@ nav ul li:last-child {
     background-repeat: no-repeat;
     height: 100%;
    background-color: var(--off-black);
+}
+
+.material-icons.md-196 { 
+    font-size: 196px; 
+    color: var(--off-black);
+}
+
+.supply-chain-container {
+    margin-top: 2.8125rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media (max-width: 760px) {
