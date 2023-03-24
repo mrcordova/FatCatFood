@@ -9,6 +9,7 @@ body {
     box-sizing: border-box; 
     border: 1px solid red;
     align-content: flex-start;
+    
 
 }
 
@@ -73,6 +74,7 @@ nav ul li:last-child {
 .desc-section {
     border: 1px solid springgreen;
     width: 100vw;
+    overflow: auto;
     
      /* flex: 1 1 auto; */
 }
