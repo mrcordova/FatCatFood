@@ -4,13 +4,21 @@
 
 body {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-flow: row wrap;
+    box-sizing: border-box; 
     border: 1px solid red;
+    align-content: flex-start;
+
+
+ 
 }
 
-nav {
-        width: 100vw;
+header {
+    width: 100vw;
+   
+    border: 1px solid rebeccapurple;
+   
 }
 
 
@@ -58,8 +66,10 @@ nav ul li:last-child {
 }
 
 section {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    border: 1px solid sandybrown;
+    height: 35vh;
+
 }
 .hero {
     background-image: url('./images/hero_img.png');
