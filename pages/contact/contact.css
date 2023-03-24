@@ -101,13 +101,6 @@ nav ul li:last-child {
     border: 1px solid  brown;
 }
 
-.hero-section {
-    /* width: 100vw; */
-    flex: auto;
-    border: 1px solid sandybrown;
-    height: 35vh;
-
-}
 .hero {
     background-image: url('./images/hero_img.png');
     width: 100%;
@@ -116,6 +109,17 @@ nav ul li:last-child {
     background-repeat: no-repeat;
     height: 100%;
     background-color: var(--off-black);
+}
+.hero-section {
+    /* width: 100vw; */
+    flex: auto;
+    border: 1px solid sandybrown;
+    height: 35vh;
+
+}
+
+.hero-text {
+    color: #F8F8FF;
 }
 
 
