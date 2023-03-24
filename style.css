@@ -1,5 +1,6 @@
 :root {
     --off-black: #333333;
+    --primary: #F5F5DC;
   }
 
 body {
@@ -27,7 +28,7 @@ nav ul {
     justify-content: flex-end; 
     align-items: center;
     width: 100%;
-    background-color: #F5F5DC;
+    background-color: var(--primary);
     border: 1px solid blueviolet;
 }
 
@@ -92,7 +93,34 @@ nav ul li:last-child {
     font-size: 1.1875rem;
 }
 
+.footer-logo {
+    width: 7rem; 
+    height: 7rem;
+    /* flex-shrink: 1; */
+}
+.footer-icon {
+    height: 1.5rem;
+}
 
+.footer-section {
+    width: 100vw;
+    
+    /* height: 100vh; */
+    /* flex: 1 1 0; */
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid goldenrod;
+    background-color: var(--primary);
+    text-decoration: none;
+}
+
+.icon-link {
+    text-decoration: none;
+}
 
 .icon-text {
     font-size: 1.5625rem;
