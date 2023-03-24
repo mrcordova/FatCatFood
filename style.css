@@ -16,7 +16,6 @@ body {
 
 header {
     width: 100vw;
-   
     border: 1px solid rebeccapurple;
    
 }
@@ -60,12 +59,18 @@ nav ul li:last-child {
     margin-right: 5.75rem;
 }
 
+.desc {
+    text-align: center;
+    margin-right: 5.75rem;
+    margin-left: 5.75rem;
+}
+
 .logo {
     width: 5rem;
     border: 1px solid  brown;
 }
 
-section {
+.hero-section {
     width: 100vw;
     border: 1px solid sandybrown;
     height: 35vh;
@@ -90,6 +95,10 @@ section {
         margin-right: 0;
     }
     nav ul li:first-child {
+        margin-left: 0;
+    }
+    .desc {
+        margin-right: 0;
         margin-left: 0;
     }
     
