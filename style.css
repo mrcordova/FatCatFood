@@ -75,6 +75,8 @@ nav ul li:last-child {
     color: var(--off-black);
 }
 .desc-par {
+     margin-right: 5.75rem;
+    margin-left: 5.75rem;
     line-height: 195%;
     font-size: 1.1875rem;
 }
@@ -142,9 +144,17 @@ nav ul li:last-child {
     }
     .desc-par {
         font-size: 1.5rem;
-    }*/
-    .material-icons.md-196 { 
+    } */
+    /* .material-icons.md-196 { 
         font-size: 1.5rem; 
         
+    }  */
+    .material-icons.md-196 { 
+        font-size: 5rem; 
+        
     } 
+    .desc-par {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
