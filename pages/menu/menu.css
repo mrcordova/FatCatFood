@@ -8,7 +8,7 @@
 body {
     display: flex;
     /* min-height: 100vh; */
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     box-sizing: border-box; 
     border: 1px solid red;
     align-content: flex-start;
@@ -137,15 +137,11 @@ nav ul li:last-child {
     padding: 1rem;
     color: var(--off-white);
 }
-/* .hero {
-    background-image: url('../../images/cat_takeout.png');
 
-    background-size: contain;
-  
-    background-repeat: no-repeat; 
-   
-    background-color: var(--off-black);
-} */
+.menu-section {
+    flex: 1;
+    display: flex;
+}
 
 
 @media (max-width: 760px) {
