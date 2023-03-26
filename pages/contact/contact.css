@@ -149,6 +149,7 @@ nav ul li:last-child {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    /* height: 100%; */
     align-items: center;
     border: 2px solid brown;
     margin: 2rem 5.75rem;
@@ -185,18 +186,18 @@ nav ul li:last-child {
 
     border: 1px dotted rosybrown;
 }
-.menu-btn {
+.staff-btn {
     font-size: 1.5rem;
     padding: 0rem 3rem;
     background: none;
     border: 2px solid var(--btn-purple);
     border-radius: 10px;
 }
-.menu-card-img {
+.staff-card-img {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-.menu-card-title {
+.staff-card-title {
     background-color: var(--primary);
     border-radius: 10px;
     flex: 1;
@@ -206,13 +207,13 @@ nav ul li:last-child {
     padding-bottom: 0.5rem;
     border: 5px solid var(--off-gray);
 }
-.menu-card-text {
+.staff-card-text {
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--chewy);
     
 }
-.menu-card-desc {
+.staff-card-desc {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     font-size: 1.5rem;
@@ -222,7 +223,7 @@ nav ul li:last-child {
     flex-flow: column; */
  
 }
-.menu-card-desc p {
+.staff-card-desc p {
     border: 1px solid seagreen;
     /* flex: 1; */
     text-align: center;
@@ -262,7 +263,7 @@ nav ul li:last-child {
         flex-flow: column;
     }
 
-    .menu-section {
+    .staff-section {
 
         margin: 2rem 0;
     }
