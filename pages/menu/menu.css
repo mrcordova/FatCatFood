@@ -210,11 +210,12 @@ nav ul li:last-child {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
-.material-icons.menu-card-icon {
-
+.material-icons.md-196 {
+    font-size: 2rem;
+    align-self: flex-end;
 }
   
   
