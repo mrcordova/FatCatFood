@@ -80,6 +80,7 @@ nav ul li:last-child {
 .footer-section {
     /* width: 100vw; */
     flex: 1;
+    /* position: sticky; */
     /* height: 100vh; */
     /* flex: 1 1 0; */
     padding-bottom: 4rem;
@@ -200,8 +201,21 @@ nav ul li:last-child {
 .menu-card-text {
     text-align: center;
     font-size: 1.5rem;
+    
 }
-  
+.menu-card-desc {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    line-height: 195%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.material-icons.menu-card-icon {
+
+}
   
   
 
