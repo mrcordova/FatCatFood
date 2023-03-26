@@ -146,20 +146,17 @@ nav ul li:last-child {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    /* justify-content: center; */
     align-items: center;
     border: 2px solid brown;
     margin: 2rem 5.75rem;
 }
 
 .menu-title-container {
-    /* flex: 1; */
-    /* padding-left: 5rem; */
+ 
     text-align: center;
     color: var(--off-black);
     font-size: 2rem;
     
-    /* margin-left: 4rem; */
    
 }
 
@@ -168,17 +165,24 @@ nav ul li:last-child {
     background-color: var(--off-gray);
     border-radius: 10px;
     flex: 1;
+
     margin: 1rem;
+    /* add to media query for smaller screens */
+    display: flex; 
+    flex-flow: column wrap;
+    /* align-content: stretch; */
+    /* align-items: flex-end; */
+    /* justify-content: stretch; */
 }
 .menu-card-container {
     margin-top: 2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+
     border: 1px dotted rosybrown;
 }
 .menu-btn {
-    /* margin-left: 1rem; */
     font-size: 1.5rem;
     padding: 0rem 3rem;
     background: none;
@@ -186,13 +190,13 @@ nav ul li:last-child {
     border-radius: 10px;
 }
 .menu-card-img {
-    /* padding: 0.5rem; */
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 .menu-card-title {
     background-color: var(--primary);
     border-radius: 10px;
+    flex: 1;
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -210,18 +214,20 @@ nav ul li:last-child {
     margin-right: 0.5rem;
     font-size: 1.5rem;
     line-height: 195%;
+    flex: 2;
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    /* align-items: flex-end; */
+ 
 }
 .menu-card-desc p {
-    align-self: center;
+    border: 1px solid seagreen;
+    flex-grow: 1;
 }
 
 .material-icons.md-196 {
     font-size: 2rem;
     align-self: flex-end;
+    border: 1px solid seagreen;
 }
   
   
