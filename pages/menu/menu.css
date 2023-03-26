@@ -166,6 +166,7 @@ nav ul li:last-child {
     border-radius: 10px;
     flex: 1;
 
+    flex-basis: calc(25.33%);
     margin: 1rem;
     /* add to media query for smaller screens */
     display: flex; 

@@ -118,6 +118,7 @@ nav ul li:last-child {
     /* flex: 1; */
     margin-top: 1rem;
     margin-bottom: 1rem;
+
     /* margin: 1rem;  */
     /* adjust this as needed */
   }
@@ -171,7 +172,7 @@ nav ul li:last-child {
     background-color: var(--off-white);
     /* border-radius: 10px; */
     flex: 1;
-
+    flex-basis: calc(25.33%);
     margin: 1rem;
     /* add to media query for smaller screens */
     display: flex; 
@@ -186,6 +187,7 @@ nav ul li:last-child {
     flex-flow: row wrap;
     justify-content: space-around;
 
+    
     border: 1px dotted rosybrown;
 }
 .staff-btn {
