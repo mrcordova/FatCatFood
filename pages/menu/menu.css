@@ -167,7 +167,7 @@ nav ul li:last-child {
     border-radius: 10px;
     flex: 1;
 
-    flex-basis: calc(25.33%);
+    flex-basis: 25.33%;
     margin: 1rem;
     /* add to media query for smaller screens */
     display: flex; 
@@ -185,7 +185,7 @@ nav ul li:last-child {
     /* border: 1px dotted rosybrown; */
 }
 .menu-btn {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0rem 3rem;
     background: none;
     border: 2px solid var(--btn-purple);
