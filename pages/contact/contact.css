@@ -1,12 +1,16 @@
 :root {
     --off-black: #333333;
     --primary: #F5F5DC;
+    --chewy: 'Chewy', cursive;
+    --off-white: #FFFFFF;
+    --btn-purple: #B19CD9;
+    --off-gray: #D3D3D3;
   }
 
 body {
     display: flex;
-    min-height: 100vh;
-    flex-flow: row wrap;
+    /* min-height: 100vh; */
+    flex-flow: column wrap;
     box-sizing: border-box; 
     border: 1px solid red;
     align-content: flex-start;
@@ -15,9 +19,10 @@ body {
 }
 
 header {
-    width: 100vw;
+    /* width: 100vw; */
     border: 1px solid rebeccapurple;
-   
+    flex: 1;
+    background-color: var(--primary);
 }
 
 
@@ -28,7 +33,7 @@ nav ul {
     justify-content: flex-end; 
     align-items: center;
     width: 100%;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     border: 1px solid blueviolet;
 }
 
@@ -73,8 +78,9 @@ nav ul li:last-child {
 }
 
 .footer-section {
-    width: 100vw;
-    
+    /* width: 100vw; */
+    flex: 1;
+    /* position: sticky; */
     /* height: 100vh; */
     /* flex: 1 1 0; */
     padding-bottom: 4rem;
@@ -101,29 +107,135 @@ nav ul li:last-child {
     border: 1px solid  brown;
 }
 
-.hero {
-    background-image: url('./images/hero_img.png');
-    width: 100%;
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    background-color: var(--off-black);
-}
 .hero-section {
-    /* width: 100vw; */
-    flex: auto;
-    border: 1px solid sandybrown;
-    height: 35vh;
-
+    background-color: var(--off-black);
+    display: flex;
+    align-items: center;
+    border: 5px solid blue;
 }
 
+.image {
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin: 1rem;  */
+    /* adjust this as needed */
+  }
+
+.img {
+    width: 100%;
+    height: auto;
+  }
+
+.hero-header {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: var(--chewy);
+}
 .hero-text {
-    color: #F8F8FF;
+    font-size: 1rem;
+    line-height: 195%;
+    padding-bottom: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-text-container {
+    flex: 2;
+    text-align: center;
+    padding: 1rem;
+    color: var(--off-white);
 }
 
+.staff-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    border: 2px solid brown;
+    margin: 2rem 5.75rem;
+}
 
+.staff-title {
+ 
+    text-align: center;
+    color: var(--off-black);
+    font-size: 2rem;
+    
+   
+}
 
+.staff-card {
+    border: 1px solid purple;
+    background-color: var(--off-white);
+    /* border-radius: 10px; */
+    flex: 1;
+
+    margin: 1rem;
+    /* add to media query for smaller screens */
+    display: flex; 
+    flex-flow: column wrap;
+    /* align-content: stretch; */
+    /* align-items: flex-end; */
+    /* justify-content: stretch; */
+}
+.staff-card-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    border: 1px dotted rosybrown;
+}
+.menu-btn {
+    font-size: 1.5rem;
+    padding: 0rem 3rem;
+    background: none;
+    border: 2px solid var(--btn-purple);
+    border-radius: 10px;
+}
+.menu-card-img {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.menu-card-title {
+    background-color: var(--primary);
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 0.5rem;
+    border: 5px solid var(--off-gray);
+}
+.menu-card-text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--chewy);
+    
+}
+.menu-card-desc {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 195%;
+    /* flex: 1; */
+    /* display: flex;
+    flex-flow: column; */
+ 
+}
+.menu-card-desc p {
+    border: 1px solid seagreen;
+    /* flex: 1; */
+    text-align: center;
+    /* overflow: scroll; */
+}
+
+.material-icons.md-196 {
+    font-size: 2rem;
+    align-self: flex-end;
+    border: 1px solid seagreen;
+}
+  
+  
 
 
 @media (max-width: 760px) {
@@ -146,5 +258,32 @@ nav ul li:last-child {
     nav li {
         margin-left: 0;
     }
+    .hero-section {
+        flex-flow: column;
+    }
 
+    .menu-section {
+
+        margin: 2rem 0;
+    }
+    .material-icons.md-196 {
+        font-size: 3rem;
+    }
+    
 }
+
+/* @media (max-width: 576px) { 
+    .hero-section {
+        flex-flow: column-reverse;
+    }
+    .image {
+
+        flex: 2;
+    }
+ } */
+
+/* @media (min-width: 1440px) { 
+.hero {
+    background-position: right 1rem bottom;
+}
+} */

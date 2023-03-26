@@ -262,6 +262,9 @@ nav ul li:last-child {
 
         margin: 2rem 0;
     }
+    .material-icons.md-196 {
+        font-size: 3rem;
+    }
     
 }
 
