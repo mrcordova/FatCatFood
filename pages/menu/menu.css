@@ -196,6 +196,7 @@ nav ul li:last-child {
     display: flex;
     align-items: center;
     flex-flow: column;
+    padding-bottom: 0.5rem;
     border: 5px solid var(--off-gray);
 }
 .menu-card-text {
