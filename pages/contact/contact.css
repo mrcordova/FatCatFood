@@ -12,7 +12,7 @@ body {
     /* min-height: 100vh; */
     flex-flow: column wrap;
     box-sizing: border-box; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-content: flex-start;
     
 
@@ -20,7 +20,7 @@ body {
 
 header {
     /* width: 100vw; */
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     flex: 1;
     background-color: var(--primary);
 }
@@ -34,13 +34,13 @@ nav ul {
     align-items: center;
     width: 100%;
     /* background-color: var(--primary); */
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 
 nav li  {
 
     font-family: 'Chewy', cursive;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     padding: 0.5rem 1rem;
     margin-left: 1rem;
     
@@ -89,7 +89,7 @@ nav ul li:last-child {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
     background-color: var(--primary);
     text-decoration: none;
 }
@@ -104,21 +104,20 @@ nav ul li:last-child {
 
 .logo {
     width: 5rem;
-    border: 1px solid  brown;
+    /* border: 1px solid  brown; */
 }
 
 .hero-section {
     background-color: var(--off-black);
     display: flex;
     align-items: center;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 
 .image {
     /* flex: 1; */
     margin-top: 1rem;
     margin-bottom: 1rem;
-
     /* margin: 1rem;  */
     /* adjust this as needed */
   }
@@ -154,7 +153,7 @@ nav ul li:last-child {
     flex-grow: 1;
     /* height: 100%; */
     align-items: center;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     margin: 2rem 5.75rem;
 }
 
@@ -162,18 +161,19 @@ nav ul li:last-child {
  
     text-align: center;
     color: var(--off-black);
-    font-size: 2rem;
+    font-family: var(--chewy);
+    font-size: 3rem;
     
    
 }
 
 .staff-card {
-    border: 1px solid purple;
+    /* border: 1px solid purple;  */
     background-color: var(--off-white);
     /* border-radius: 10px; */
     flex: 1;
-    flex-basis: calc(25.33%);
-    margin: 1rem;
+    /* flex-basis: 33.33%; */
+    margin: 3rem;
     /* add to media query for smaller screens */
     display: flex; 
     flex-flow: column wrap;
@@ -188,7 +188,7 @@ nav ul li:last-child {
     justify-content: space-around;
 
     
-    border: 1px dotted rosybrown;
+    /* border: 1px dotted rosybrown; */
 }
 .staff-btn {
     font-size: 1.5rem;
@@ -201,17 +201,10 @@ nav ul li:last-child {
     /* flex: 0; */
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    width: 100%;
+    height: auto;
 }
-.staff-card-title {
-    background-color: var(--primary);
-    border-radius: 10px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    padding-bottom: 0.5rem;
-    border: 5px solid var(--off-gray);
-}
+
 .staff-card-text {
     text-align: center;
     font-size: 1.5rem;
@@ -229,18 +222,13 @@ nav ul li:last-child {
  
 }
 .staff-card-desc p {
-    border: 1px solid seagreen;
+    /* border: 1px solid seagreen; */
     /* flex: 1; */
     text-align: center;
     /* overflow: scroll; */
 }
 
-.material-icons.md-196 {
-    font-size: 2rem;
-    align-self: flex-end;
-    border: 1px solid seagreen;
-}
-  
+ 
   
 
 
@@ -272,24 +260,7 @@ nav ul li:last-child {
 
         margin: 2rem 0;
     }
-    .material-icons.md-196 {
-        font-size: 3rem;
-    }
+    
     
 }
 
-/* @media (max-width: 576px) { 
-    .hero-section {
-        flex-flow: column-reverse;
-    }
-    .image {
-
-        flex: 2;
-    }
- } */
-
-/* @media (min-width: 1440px) { 
-.hero {
-    background-position: right 1rem bottom;
-}
-} */
