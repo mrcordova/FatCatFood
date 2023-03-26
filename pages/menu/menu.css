@@ -12,7 +12,7 @@ body {
     /* min-height: 100vh; */
     flex-flow: column wrap;
     box-sizing: border-box; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-content: flex-start;
     
 
@@ -20,7 +20,7 @@ body {
 
 header {
     /* width: 100vw; */
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     flex: 1;
     background-color: var(--primary);
 }
@@ -34,13 +34,13 @@ nav ul {
     align-items: center;
     width: 100%;
     /* background-color: var(--primary); */
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 
 nav li  {
 
     font-family: 'Chewy', cursive;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     padding: 0.5rem 1rem;
     margin-left: 1rem;
     
@@ -89,7 +89,7 @@ nav ul li:last-child {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
     background-color: var(--primary);
     text-decoration: none;
 }
@@ -104,14 +104,14 @@ nav ul li:last-child {
 
 .logo {
     width: 5rem;
-    border: 1px solid  brown;
+    /* border: 1px solid  brown; */
 }
 
 .hero-section {
     background-color: var(--off-black);
     display: flex;
     align-items: center;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 
 .image {
@@ -147,21 +147,22 @@ nav ul li:last-child {
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     margin: 2rem 5.75rem;
 }
 
 .menu-title-container {
  
     text-align: center;
+    font-family: var(--chewy);
     color: var(--off-black);
-    font-size: 2rem;
+    font-size: 3rem;
     
    
 }
 
 .menu-card {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     background-color: var(--off-gray);
     border-radius: 10px;
     flex: 1;
@@ -181,7 +182,7 @@ nav ul li:last-child {
     flex-flow: row wrap;
     justify-content: space-around;
 
-    border: 1px dotted rosybrown;
+    /* border: 1px dotted rosybrown; */
 }
 .menu-btn {
     font-size: 1.5rem;
@@ -221,15 +222,16 @@ nav ul li:last-child {
  
 }
 .menu-card-desc p {
-    border: 1px solid seagreen;
+    /* border: 1px solid seagreen; */
     flex: 1;
     overflow: scroll;
+    text-align: center;
 }
 
 .material-icons.md-196 {
     font-size: 2rem;
     align-self: flex-end;
-    border: 1px solid seagreen;
+    /* border: 1px solid seagreen; */
 }
   
   
