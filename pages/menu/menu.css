@@ -201,16 +201,21 @@ nav ul li:last-child {
 .menu-card-text {
     text-align: center;
     font-size: 1.5rem;
+    font-family: var(--chewy);
     
 }
 .menu-card-desc {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    font-size: 1.5rem;
     line-height: 195%;
     display: flex;
     flex-flow: column;
     justify-content: center;
     /* align-items: flex-end; */
+}
+.menu-card-desc p {
+    align-self: center;
 }
 
 .material-icons.md-196 {
