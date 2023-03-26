@@ -221,7 +221,8 @@ nav ul li:last-child {
 }
 .menu-card-desc p {
     border: 1px solid seagreen;
-    flex-grow: 1;
+    flex: 1;
+    overflow: scroll;
 }
 
 .material-icons.md-196 {
@@ -255,6 +256,11 @@ nav ul li:last-child {
     }
     .hero-section {
         flex-flow: column-reverse;
+    }
+
+    .menu-section {
+
+        margin: 2rem 0;
     }
     
 }
