@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FatCat Food Menu</title>
+    <script src="./menu.js" defer></script>
     <link rel="stylesheet" href="../../reset.css">
     <link rel="stylesheet" href="menu.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -20,7 +21,7 @@
             <ul>
                 <li ><a  href="../../index.html"><img src="../../images/fatcat_logo.png" alt="fat cat logo" class="logo" ></a></li>
 
-                <li><a href="#">About</a> </li>
+                <li><a href="../../index.html">Home</a> </li>
                 <li><a href="menu.html">Menu</a> </li>
                 <li><a href="../contact/contact.html">Contact</a> </li>
                 <li>
@@ -51,13 +52,37 @@
       
     </section>
 
+    
     <!-- Menu Section -->
     <section class="menu-section">
 
         <div class="menu-title-container">
             <h1 class="menu-title">Our Menu
             </h1>
-            <button class="menu-btn">All</button>
+            <!-- <button class="menu-btn">All</button> -->
+            <!-- <select name="dropdown" class="dropdown" >
+                <option value="all">All</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select> -->
+            <div class="dropdown">
+                <ul class="menu-types">
+                    <li class="link active"><a href="#" >All</a></li>
+                    <li class="link"><a  href="#" >Breakfast</a></li>
+                    <li class="link"><a href="#">Lunch</a></li>
+                    <li class="link"><a href="#">Dinner</a></li>
+                </ul>
+            </div>
+           <!-- <div class="dropdown">
+                <button class="menu-btn">All</button>
+                <div class="dropdown-options" id="dropdown-option">
+                  <a href="#">All</a>
+                  <a href="#">Breakfast</a>
+                  <a href="#">Lunch</a>
+                  <a href="#">Dinner</a>
+                </div>
+            </div>  -->
         </div>
         <div class="menu-card-container">
             <div class="menu-card">

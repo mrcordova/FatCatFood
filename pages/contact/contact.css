@@ -151,7 +151,8 @@ nav ul li:last-child {
 .staff-section {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex:1;
+    /* flex-grow: 1; */
     /* height: 100%; */
     align-items: center;
     /* border: 2px solid brown; */
@@ -172,8 +173,8 @@ nav ul li:last-child {
     /* border: 1px solid purple;  */
     background-color: var(--off-white);
     /* border-radius: 10px; */
-    flex: 1;
-    /* flex-basis: 33.33%; */
+    /* flex: 1; */
+    flex-basis: 33.33%;
     margin: 3rem;
     /* add to media query for smaller screens */
     display: flex; 

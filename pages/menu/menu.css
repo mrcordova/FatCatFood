@@ -115,7 +115,7 @@ nav ul li:last-child {
 }
 
 .image {
-    flex: 1;
+    /* flex: 1; */
     margin: 1rem; /* adjust this as needed */
   }
 
@@ -147,9 +147,67 @@ nav ul li:last-child {
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
+    /* position: relative; */
+
     /* border: 2px solid brown; */
     margin: 2rem 5.75rem;
 }
+
+
+
+.dropdown {
+    /* display: inline-block;
+    position: relative; */
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+.link a {
+    text-decoration: none;
+    color: var(--off-black);  
+    
+}
+.active a {
+
+    color: var(--btn-purple);
+    border-bottom: 3px solid var(--btn-purple);
+
+}
+/* .dropdown-options a:hover {background-color: #f1f1f1;} */
+
+.menu-types {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 1rem;
+}
+
+.menu-types li {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+
+ 
+}
+
+/* .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+  
+.dropdown:hover .dropdown-options {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    background-color: var(--off-white);
+    border: 1px solid var(--off-black);
+} */
+
+
+
 
 .menu-title-container {
  
@@ -157,7 +215,7 @@ nav ul li:last-child {
     font-family: var(--chewy);
     color: var(--off-black);
     font-size: 3rem;
-    
+ 
    
 }
 
@@ -165,7 +223,7 @@ nav ul li:last-child {
     /* border: 1px solid purple; */
     background-color: var(--off-gray);
     border-radius: 10px;
-    flex: 1;
+    /* flex: 1; */
 
     flex-basis: 25.33%;
     margin: 1rem;
@@ -184,13 +242,13 @@ nav ul li:last-child {
 
     /* border: 1px dotted rosybrown; */
 }
-.menu-btn {
+/* .menu-btn {
     font-size: 2rem;
     padding: 0rem 3rem;
     background: none;
     border: 2px solid var(--btn-purple);
     border-radius: 10px;
-}
+} */
 .menu-card-img {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -209,6 +267,7 @@ nav ul li:last-child {
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--chewy);
+    color: var(--off-black) ;
     
 }
 .menu-card-desc {
